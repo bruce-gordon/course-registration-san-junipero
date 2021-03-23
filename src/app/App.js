@@ -46,6 +46,18 @@ const App = () => {
     setUser({});
   }
 
+  const addCourse = (courseId) => {
+    createEnrollment({ userId: user.id, courseId: courseId })
+      .then(resp => setEnrollments([ ...enrollments, resp ]))
+  }
+
+  const deleteCourse = async (enrollmentId) => {
+    await deleteEnrollment(enrollmentId)
+      .then(resp => console.log(resp.message));
+    getUserEnrollments(user.id)
+      .then(resp => setEnrollments(resp))
+  }
+
   if (!user.id) {
     return (
       <div className="App-login">
@@ -58,8 +70,60 @@ const App = () => {
   } else {
     return (
       <div className="App">
-      Hello, world
-      </div>
+      <nav className='nav-bar'>
+        <h1 className='nav-title'>San Junipero University
+        </h1>
+        <div className='nav-button-container'>
+          <NavLink
+            to='/'
+            className='nav-link'
+            exact activeClassName={'selected-link'}
+          >All Courses
+          </NavLink>
+          <NavLink
+            to='/schedule'
+            className='nav-link'
+            exact activeClassName={'selected-link'}
+          >My Enrollments
+          </NavLink>
+          <NavLink
+            to='/'
+            className='nav-link'
+            onClick={ logoutUser }
+          >Log Out
+          </NavLink>
+        </div>
+      </nav>
+      <Switch>
+        <Route
+        exact path='/'
+        render={() => {
+          return (
+            <Catalog
+            btnFunc={ addCourse }
+            courses={ courses }
+            enrollmentInfo={ enrollments }
+            />
+          )
+        }}
+        >
+        </Route>
+        <Route
+          exact path='/schedule'
+          render={() => {
+            return (
+              <Schedule
+                user={ user }
+                btnFunc={ deleteCourse }
+                courses={ courses }
+                enrollmentInfo={ enrollments }
+              />
+            )
+          }}
+        >
+        </Route>
+      </Switch>
+    </div>
     );
   }
 }
