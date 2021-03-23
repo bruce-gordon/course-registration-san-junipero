@@ -1,7 +1,7 @@
 # Guild Application | Front-End 
 
 ## Instructions
-Given one hour, create an app that can perform CRUD operations on a database. The app is meant to simulate course enrollment at a school.
+Given one hour, create an app that can perform CRUD operations on a database. The app is meant to simulate course enrollment at a school.  A student is modeled with a name, id, and email address.  Each course is modeled with a name, id, and time.
 
 ## Install Instructions:
 1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/guild-project-server)
@@ -32,16 +32,3 @@ This project utilizes Javascript, React, and Router
 
 *Developed by Bruce Gordon*
 *****************************************************************************
-
-
-# Guild Application | Back-End
-## Bruce Gordon
-
-## Install Instructions:
-1. Clone down this repo
-2. Run `cd guild-project-server`
-3. Run `npm install`
-4. Run `node server.js`
-5. Follow the install instructions for the frontend [here](https://github.com/bruce-gordon/guild-internship-project)
-
-
