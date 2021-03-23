@@ -1,3 +1,36 @@
+# Guild Application | Front-End 
+## Bruce Gordon
+
+![site](https://user-images.githubusercontent.com/51416773/112075528-4feb8380-8b3e-11eb-8e60-2e24c3208f62.gif)
+
+## Install Instructions:
+1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/guild-project-server)
+2. Clone down this repo
+3. Run `cd guild-internship-project`
+4. Run `npm install`
+5. Run `npm start`
+6. Once on the app, you can sign in using any of the following ids: `111`, *******
+
+## Reflections:
+blah blah blah 
+
+
+
+*****************************************************************************
+
+
+# Guild Application | Back-End
+## Bruce Gordon
+
+## Install Instructions:
+1. Clone down this repo
+2. Run `cd guild-project-server`
+3. Run `npm install`
+4. Run `node server.js`
+5. Follow the install instructions for the frontend [here](https://github.com/bruce-gordon/guild-internship-project)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
