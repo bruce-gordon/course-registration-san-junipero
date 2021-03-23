@@ -8,22 +8,22 @@ const Course = ({ id, name, time, btnText, btnFunc, enrollmentInfo, userCourses 
   const handleClick = () => {
     setIsDisabled(true)
     if (enrollmentInfo) {
-      // btnFunc()
+      btnFunc(getEnrollmentId())
     } else {
       btnFunc(id)
     }
   }
 
   const getEnrollmentId = () => {
-    const enrollment = enrollmentInfo.find(enrollment => enrollment.petId === id)
-    return enrollment.id;
+    const enrollment = enrollmentInfo.find(enrollment => enrollment.courseId === id)
+    return enrollment.enrollmentId;
   }
 
   const checkDisabled = () => {
     let included = false;
     if (userCourses) {
       userCourses.forEach(enrollment => {
-        if (enrollment.petId === id) {
+        if (enrollment.courseId === id) {
           included = true;
         }
       })
