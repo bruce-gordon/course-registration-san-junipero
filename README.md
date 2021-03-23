@@ -27,7 +27,7 @@ I used branches and pull requests to simulate a typical workflow.  The `developm
 ## Additional Information:
 My experience is in frontend development and I was not familiar with building backend servers prior to this project.  I spent time teaching myself to build a simple server with `node.js` and `express` in order to create the backend for this project.  I enjoyed this learning opportunity!
 
-##Tech Stack:
+## Tech Stack:
 This project utilizes Javascript, React, and Router
 
 *Developed by Bruce Gordon*
