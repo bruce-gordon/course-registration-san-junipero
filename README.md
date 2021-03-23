@@ -1,7 +1,7 @@
 # Guild Application | Front-End 
-## Bruce Gordon
 
-![site](https://user-images.githubusercontent.com/51416773/112075528-4feb8380-8b3e-11eb-8e60-2e24c3208f62.gif)
+## Instructions
+Given one hour, create an app that can perform CRUD operations on a database. The app is meant to simulate course enrollment at a school.
 
 ## Install Instructions:
 1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/guild-project-server)
@@ -9,13 +9,28 @@
 3. Run `cd guild-internship-project`
 4. Run `npm install`
 5. Run `npm start`
-6. Once on the app, you can sign in using any of the following ids: `111`, *******
+6. Once on the app, you can sign in using any of the following ids: `111`, `112`, `113`, `114`, or `115`.
+7. To view the tests, run `npm test`
+
+## Description:
+This is a Couse Registration app.  Students log in using a provided id.  A student can view the Course Catalog to see available courses.  Courses for which the student is already enrolled are indicated and the "add" button is disabled.  
+
+![site](https://user-images.githubusercontent.com/51416773/112075528-4feb8380-8b3e-11eb-8e60-2e24c3208f62.gif)
+
+Using the navbar a student may navigate to their schedule and view their enrolled courses.  This page shows the student's information and the courses for which they enrolled.  In this view, a student may also remove a course.
+
+A student can log out by clicking the "log out" button in the navbar.
 
 ## Reflections:
-blah blah blah 
+I used branches and pull requests to simulate a typical workflow.  The `development` branch contains the core work that went into the UI.  For full disclosure, I did the majority of the work within the one hour time, but did go over while working out the front-end delete logic.  I also put additional time to styling for the sake of having a better UX/UI.  The `testing` branch was not completed within the given hour.  However, I know that testing is important and wanted to included it in the submission to demonstrate what unit testing would look like for this app.
 
+## Additional Information:
+My experience is in frontend development and I was not familiar with building backend servers prior to this project.  I spent time teaching myself to build a simple server with `node.js` and `express` in order to create the backend for this project.  I enjoyed this learning opportunity!
 
+##Tech Stack:
+This project utilizes Javascript, React, and Router
 
+*Developed by Bruce Gordon*
 *****************************************************************************
 
 
@@ -30,74 +45,3 @@ blah blah blah
 5. Follow the install instructions for the frontend [here](https://github.com/bruce-gordon/guild-internship-project)
 
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
