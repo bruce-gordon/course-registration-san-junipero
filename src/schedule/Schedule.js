@@ -13,8 +13,8 @@ const Schedule = ({ user, btnFunc, courses, enrollmentInfo }) => {
   const enrollments = myCourses.map(course => {
     return (
       <Course
-        key={ course.id }
-        id={ course.id }
+        key={ course.courseId }
+        id={ course.courseId }
         name={ course.name }
         time={ course.time }
         btnText='-'
