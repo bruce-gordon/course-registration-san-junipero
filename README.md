@@ -24,8 +24,10 @@ A student can log out by clicking the "log out" button in the navbar.
 ## Reflections:
 I used branches and pull requests to simulate a typical workflow.  The `development` branch contains the core work that went into the UI.  For full disclosure, I did the majority of the work within the one hour time, but did go over while working out the front-end delete logic.  I also put additional time to styling for the sake of having a better UX/UI.  The `testing` branch was not completed within the given hour.  However, I know that testing is important and wanted to included it in the submission to demonstrate what unit testing would look like for this app.
 
-## Additional Information:
+## Process:
 My experience is in frontend development and I was not familiar with building backend servers prior to this project.  I spent time teaching myself to build a simple server with `node.js` and `express` in order to create the backend for this project.  I enjoyed this learning opportunity!
+
+I carefully planned and prepared to make sure that my time would be used effectively.  I worked out a wireframe using Excalidraw and tested my server endpoints in Postman prior to beginning work on the frontend app.
 
 ## Tech Stack:
 This project utilizes Javascript, React, and Router
