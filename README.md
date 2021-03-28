@@ -4,7 +4,7 @@
 Create an app that can perform CRUD operations on a database. The app is meant to simulate university course enrollment.  A student is modeled with a name, id, and email address.  Each course is modeled with a name, id, and time.  I was given three business days to complete this task.
 
 ## Install Instructions:
-1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/guild-project-server)
+1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/san-junipero-server)
 2. Clone down this repo
 3. Run `cd course-registration-san-junipero`
 4. Run `npm install`
