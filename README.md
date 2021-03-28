@@ -1,12 +1,12 @@
-# Guild Application | Front-End 
+# Course Registration | Front-End | San Junipero University
 
-## Instructions
-Given one hour, create an app that can perform CRUD operations on a database. The app is meant to simulate course enrollment at a school.  A student is modeled with a name, id, and email address.  Each course is modeled with a name, id, and time.
+## Goal
+Create an app that can perform CRUD operations on a database. The app is meant to simulate university course enrollment.  A student is modeled with a name, id, and email address.  Each course is modeled with a name, id, and time.  I was given three business days to complete this task.
 
 ## Install Instructions:
 1. First, follow the install instructions for running the backend [here](https://github.com/bruce-gordon/guild-project-server)
 2. Clone down this repo
-3. Run `cd guild-internship-project`
+3. Run `cd course-registration-san-junipero`
 4. Run `npm install`
 5. Run `npm start`
 6. Once on the app, you can sign in using any of the following ids: `111`, `112`, `113`, `114`, or `115`.
@@ -21,11 +21,8 @@ Using the navbar a student may navigate to their schedule and view their enrolle
 
 A student can log out by clicking the "log out" button in the navbar.
 
-## Reflections:
-I used branches and pull requests to simulate a typical workflow.  The `development` branch contains the core work that went into the UI.  For full disclosure, I did the majority of the work within the one hour time, but did go over while working out the front-end delete logic.  I also put additional time to styling for the sake of having a better UX/UI.  The `testing` branch was not completed within the given hour.  However, I know that testing is important and wanted to included it in the submission to demonstrate what unit testing would look like for this app.
-
 ## Process:
-My experience is in frontend development and I was not familiar with building backend servers prior to this project.  I spent time teaching myself to build a simple server with `node.js` and `express` in order to create the backend for this project.  I enjoyed this learning opportunity!
+My experience is in frontend development and I was not familiar with building backend servers prior to this project.  I taught myself to build a server with `node.js` and `express` in order to create the backend for this project.  I enjoyed this learning opportunity!
 
 I carefully planned and prepared to make sure that my time would be used effectively.  I worked out a wireframe using Excalidraw and tested my server endpoints in Postman prior to beginning work on the frontend app.
 
